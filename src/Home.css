@@ -9,7 +9,7 @@
   height: auto;
 }
 
-.topics{
+.topics {
   margin: -100 0 0 0;
 }
 
@@ -30,14 +30,13 @@
 }
 
 .icon-right {
-  left: 93%
+  left: 93%;
 }
 
 .carousel-holder {
   position: relative;
   z-index: -1;
 }
-
 
 .topic-text {
   line-height: 25px;
@@ -47,4 +46,22 @@
 
 .singlePostfunctions {
   color: grey;
+}
+
+.image-splash {
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+  vertical-align: bottom;
+  min-height: 600px;
+  background-size: cover;
+  background-position: top;
+  background-image: url("https://images.unsplash.com/photo-1487581424120-18f3611a63e6?dpr=2&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1033&amp;q=80&amp;cs=tinysrgb&amp;crop=");
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
 }
