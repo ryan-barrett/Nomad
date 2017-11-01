@@ -4,19 +4,40 @@ class TopicList extends Component {
   render() {
     let cityTopics = this.props.cities.map(city => {
       return (
-        <div>
-          <div className="image-splash" />
-          <div
-            className="col s12 m4 click-for-city"
-            data-city-id={city._id}
-            onClick={this.props.handleCitySelect}
-          >
-            <div className="topic-title">
-              <h3>{city.name}</h3>
-              <img src={city.img_url} alt={city.name} />
+        <div className="row splash-main">
+          <div className="col-md-12 image-splash" />
+          <div id="left-topic">
+            <div className="topicHead">
+              <h3>Top Cities</h3>
             </div>
-            <div className="topic-text">{city.description}</div>
-            <a>...read more</a>
+            <hr />
+            <p>
+              Find tips on a wide range of topics, from where to find historical
+              landmarks to names of the best shopping centers.This is a
+              perfectly tailored website for your next adventure.
+            </p>
+          </div>
+
+          <div id="middle-topic">
+            <div className="topicHead">
+              <h3>Destinations</h3>
+            </div>
+            <hr />
+            <p>
+              Our site is jam packed with the information you need for all your
+              travels. Get excited and picture what you will experience.
+            </p>
+          </div>
+
+          <div id="right-topic">
+            <div className="topicHead">
+              <h3>Adventures</h3>
+            </div>
+            <hr />
+            <p>
+              Make your life easier and use Wayfarer to plan your next trip. Go
+              explore and discover your next adventure.
+            </p>
           </div>
         </div>
       );

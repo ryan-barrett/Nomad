@@ -9,10 +9,6 @@
   height: auto;
 }
 
-.topics {
-  margin: -100 0 0 0;
-}
-
 .topic-title img {
   width: 100%;
   height: auto;
@@ -51,14 +47,15 @@
 .image-splash {
   padding: 40px;
   height: 100%;
-  width: 125%;
+  width: 120.6%;
   position: relative;
-  right: 10%;
+  right: 9.9%;
   vertical-align: bottom;
-  min-height: 800px;
+  min-height: 900px;
   background-size: cover;
   background-position: top;
   background-image: url("https://images.unsplash.com/photo-1487581424120-18f3611a63e6?dpr=2&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1033&amp;q=80&amp;cs=tinysrgb&amp;crop=");
+  margin-bottom: -100px;
 }
 
 .container-fluid {
@@ -66,4 +63,42 @@
   margin: 0px;
   border: 0px;
   padding: 0px;
+}
+
+#left-topic,
+#middle-topic,
+#right-topic {
+  padding: 3px;
+  background-color: white;
+  color: black;
+  width: 25%;
+  border-radius: 5px;
+  min-height: 250px;
+  min-width: 200px;
+  max-width: 400px;
+  max-height: 450px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 30px;
+  margin-left: 30px;
+  font-weight: 700;
+  padding-top: -15px;
+  position: relative;
+  bottom: 450px;
+  left: 5%;
+  margin-bottom: -300px;
+}
+
+div.topicHead {
+  background-color: #34495e;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.splash-main {
+  padding-bottom: -50px;
+}
+
+.header-color {
+  color: #34495e;
 }
