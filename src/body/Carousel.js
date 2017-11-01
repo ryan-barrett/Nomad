@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../Home.css";
 
 class Carousel extends Component {
   constructor(props) {

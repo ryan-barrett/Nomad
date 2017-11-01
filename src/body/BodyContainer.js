@@ -3,7 +3,6 @@ import Carousel from "./Carousel.js";
 import TopicList from "./TopicList.js";
 import CityListAndShowcase from "./CityListAndShowcase.js";
 import $ from "jquery-ajax";
-import "../Home.css";
 
 class BodyContainer extends Component {
   constructor(props) {
