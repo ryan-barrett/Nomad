@@ -7,7 +7,7 @@ class TopicList extends Component {
         <div className="row splash-main">
           <div className="col-md-12 image-splash" />
           <div id="left-topic">
-            <div className="topicHead">
+            <div className="topicHead light-blue lighten-1">
               <h3>Top Cities</h3>
             </div>
             <hr />
@@ -19,7 +19,7 @@ class TopicList extends Component {
           </div>
 
           <div id="middle-topic">
-            <div className="topicHead">
+            <div className="topicHead light-blue lighten-1">
               <h3>Destinations</h3>
             </div>
             <hr />
@@ -30,7 +30,7 @@ class TopicList extends Component {
           </div>
 
           <div id="right-topic">
-            <div className="topicHead">
+            <div className="topicHead light-blue lighten-1">
               <h3>Adventures</h3>
             </div>
             <hr />

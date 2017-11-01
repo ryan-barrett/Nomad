@@ -56,6 +56,7 @@
   background-position: top;
   background-image: url("https://images.unsplash.com/photo-1487581424120-18f3611a63e6?dpr=2&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1033&amp;q=80&amp;cs=tinysrgb&amp;crop=");
   margin-bottom: -100px;
+  z-index: -5;
 }
 
 .container-fluid {
@@ -84,13 +85,14 @@
   font-weight: 700;
   padding-top: -15px;
   position: relative;
-  bottom: 450px;
+  bottom: 475px;
   left: 5%;
   margin-bottom: -300px;
+  font-style: Arial;
 }
 
 div.topicHead {
-  background-color: #34495e;
+  /*background-color: #34495e;*/
   padding-top: 8px;
   padding-bottom: 8px;
 }
