@@ -47,9 +47,9 @@
 .image-splash {
   padding: 40px;
   height: 100%;
-  width: 140%;
-  position: relative;
-  right: 9.9%;
+  width: 130%;
+  /*position: relative;
+  right: 9.9%;*/
   vertical-align: bottom;
   min-height: 900px;
   background-size: cover;
@@ -89,6 +89,7 @@
   left: 5%;
   margin-bottom: -300px;
   font-style: Arial;
+  z-index: -5;
 }
 
 div.topicHead {
