@@ -90,6 +90,8 @@
   margin-bottom: -300px;
   font-style: Arial;
   z-index: -5;
+  font-family: serif;
+  text-align: center;
 }
 
 div.topicHead {
@@ -104,4 +106,8 @@ div.topicHead {
 
 .header-color {
   color: #34495e;
+}
+
+.title-color {
+  color: black;
 }

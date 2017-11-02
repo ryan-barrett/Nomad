@@ -8,7 +8,7 @@ class Header extends Component {
       return (
         <header>
           <nav className="light-blue lighten-1">
-            <a className="brand-logo left">Nomad</a>
+            <a className="brand-logo title-color">Nomad</a>
             <ul id="navList" className="right">
               <li>
                 <a onClick={this.props.toggleSignInModal}>Sign In</a>
