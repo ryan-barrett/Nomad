@@ -47,16 +47,18 @@
 .image-splash {
   padding: 40px;
   height: 100%;
-  width: 130%;
-  position: relative;
-  right: 14%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
   vertical-align: bottom;
   min-height: 900px;
   background-size: cover;
   background-position: top;
   background-image: url("https://images.unsplash.com/photo-1487581424120-18f3611a63e6?dpr=2&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1033&amp;q=80&amp;cs=tinysrgb&amp;crop=");
   margin-bottom: -100px;
-  z-index: -5;
+  z-index: -5000;
+  overflow: visible;
 }
 
 .container-fluid {
@@ -66,9 +68,7 @@
   padding: 0px;
 }
 
-#left-topic,
-#middle-topic,
-#right-topic {
+#left-topic {
   padding: 3px;
   background-color: white;
   color: black;
@@ -84,12 +84,64 @@
   margin-left: 30px;
   font-weight: 700;
   padding-top: -15px;
-  position: relative;
+  position: fixed;
   bottom: 475px;
   left: 5%;
   margin-bottom: -300px;
   font-style: Arial;
-  z-index: -5;
+
+  font-family: serif;
+  text-align: center;
+}
+
+#middle-topic {
+  padding: 3px;
+  background-color: white;
+  color: black;
+  width: 25%;
+  border-radius: 5px;
+  min-height: 250px;
+  min-width: 200px;
+  max-width: 400px;
+  max-height: 450px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 30px;
+  margin-left: 500px;
+  font-weight: 700;
+  padding-top: -15px;
+  position: fixed;
+  bottom: 475px;
+  left: 5%;
+  margin-bottom: -300px;
+  font-style: Arial;
+
+  font-family: serif;
+  text-align: center;
+}
+
+#right-topic {
+  padding: 3px;
+  background-color: white;
+  color: black;
+  width: 25%;
+  border-radius: 5px;
+  min-height: 250px;
+  min-width: 200px;
+  max-width: 400px;
+  max-height: 450px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 30px;
+  margin-left: 975px;
+  font-weight: 700;
+  padding-top: -15px;
+  position: fixed;
+  bottom: 475px;
+  left: 5%;
+  margin-bottom: -300px;
+  font-style: Arial;
+
   font-family: serif;
   text-align: center;
 }
