@@ -35,7 +35,7 @@ class TopicList extends Component {
             </div>
             <hr />
             <p>
-              Make your life easier and use Wayfarer to plan your next trip. Go
+              Make your life easier and use Nomad to plan your next trip. Go
               explore and discover your next adventure.
             </p>
           </div>
