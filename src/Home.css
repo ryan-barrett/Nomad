@@ -89,7 +89,7 @@
   left: 5%;
   margin-bottom: -300px;
   font-style: Arial;
-
+  z-index: -5;
   font-family: serif;
   text-align: center;
 }
@@ -115,7 +115,7 @@
   left: 5%;
   margin-bottom: -300px;
   font-style: Arial;
-
+  z-index: -5;
   font-family: serif;
   text-align: center;
 }
@@ -141,7 +141,7 @@
   left: 5%;
   margin-bottom: -300px;
   font-style: Arial;
-
+  z-index: -5;
   font-family: serif;
   text-align: center;
 }
