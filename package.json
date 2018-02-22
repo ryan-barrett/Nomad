@@ -1,7 +1,7 @@
 {
-  "name": "project-waywayfar",
+  "name": "project-nomad",
   "version": "1.0.0",
-  "description": "Project Waywayfar Frontend",
+  "description": "Project Nomad",
   "main": "index.js",
   "dependencies": {
     "foreman": "^2.0.0",
@@ -16,15 +16,5 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kc657/project-waywayfar.git"
-  },
-  "author": "Joanne Cabling, Kevin Chen, Sepp Hammer, James Silvester",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kc657/project-waywayfar/issues"
-  },
-  "homepage": "."
+  }
 }
