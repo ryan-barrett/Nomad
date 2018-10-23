@@ -1,5 +1,5 @@
 # Nomad
-Nomad is a MERN stack application that lets users share their travel experiences. Based on the Wayfarer WDI project. https://github.com/ryan-barrett/Wayfarer
+Nomad is a MERN stack application that lets users share their travel experiences.
 
 The Nomad back-end can be viewed here: https://github.com/ryan-barrett/nomad-backend
 
